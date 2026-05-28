@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StyleWave - Loja de Roupas</title>
+  <title>studioLOS - Comissões </title>
   <style>
     * {
       margin: 0;
@@ -13,13 +13,13 @@
     }
 
     body {
-      background: #f5f5f5;
-      color: #222;
+      background: #ffaab3;
+      color: #111;
     }
 
     header {
       background: #111;
-      color: white;
+      color: Pinkbaby;
       padding: 20px;
       display: flex;
       justify-content: space-between;
@@ -34,14 +34,14 @@
     }
 
     nav a {
-      color: white;
+      color: pinkbaby;
       text-decoration: none;
       margin-left: 20px;
       transition: 0.3s;
     }
 
     nav a:hover {
-      color: #ff69b4;
+      color: #ffaab3;
     }
 
     .hero {
@@ -67,8 +67,8 @@
     }
 
     .btn {
-      background: #ff69b4;
-      color: white;
+      background: #ffaab3;
+      color: pink;
       border: none;
       padding: 14px 28px;
       border-radius: 10px;
@@ -80,7 +80,7 @@
     }
 
     .btn:hover {
-      background: #ff4fa3;
+      background: #ffaab3;
       transform: scale(1.05);
     }
 
@@ -103,7 +103,7 @@
     }
 
     .card {
-      background: white;
+      background: pink;
       border-radius: 18px;
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -129,7 +129,7 @@
     }
 
     .price {
-      color: #ff1493;
+      color: #ffaab3;
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 12px;
@@ -157,19 +157,20 @@
 <body>
 
   <header>
-    <h1>StyleWave</h1>
+    <h1>studioLOS</h1>
 
     <nav>
       <a href="#inicio">Início</a>
       <a href="#produtos">Produtos</a>
       <a href="#contato">Contato</a>
+      <a href="#Direitos Autorais">Direitos Autorais</a>
     </nav>
   </header>
 
   <section class="hero" id="inicio">
     <div class="hero-content">
-      <h2>Moda com Estilo</h2>
-      <p>As melhores roupas para você montar seu visual.</p>
+      <h2>Desenhos e Edições com Estilo</h2>
+      <p>Produtos em Destaque.</p>
       <a href="#produtos" class="btn">Ver Produtos</a>
     </div>
   </section>
@@ -223,8 +224,8 @@
   </section>
 
   <footer id="contato">
-    <p>© 2026 StyleWave - Todos os direitos reservados.</p>
-    <p>Instagram: @stylewave</p>
+    <p>© 2026 studioLOS - Todos os direitos reservados.</p>
+    <p>Instagram: @studioLOS</p>
   </footer>
 
 </body>
