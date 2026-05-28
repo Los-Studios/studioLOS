@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleWave - Loja de Roupas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff69b4;
+    }
+
+    .hero {
+      height: 70vh;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=1600&auto=format&fit=crop') center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-content h2 {
+      font-size: 52px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background: #ff69b4;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #ff4fa3;
+      transform: scale(1.05);
+    }
+
+    .products {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .products h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 18px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #ff1493;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .hero-content h2 {
+        font-size: 36px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>StyleWave</h1>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h2>Moda com Estilo</h2>
+      <p>As melhores roupas para você montar seu visual.</p>
+      <a href="#produtos" class="btn">Ver Produtos</a>
+    </div>
+  </section>
+
+  <section class="products" id="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop" alt="Camiseta" />
+
+        <div class="card-content">
+          <h3>Camiseta Oversized</h3>
+          <div class="price">R$ 79,90</div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1000&auto=format&fit=crop" alt="Calça" />
+
+        <div class="card-content">
+          <h3>Calça Cargo</h3>
+          <div class="price">R$ 149,90</div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1000&auto=format&fit=crop" alt="Vestido" />
+
+        <div class="card-content">
+          <h3>Vestido Casual</h3>
+          <div class="price">R$ 129,90</div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop" alt="Moletom" />
+
+        <div class="card-content">
+          <h3>Moletom Premium</h3>
+          <div class="price">R$ 189,90</div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="contato">
+    <p>© 2026 StyleWave - Todos os direitos reservados.</p>
+    <p>Instagram: @stylewave</p>
+  </footer>
+
+</body>
+</html>
