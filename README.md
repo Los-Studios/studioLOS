@@ -169,7 +169,7 @@
 
   <section class="hero" id="inicio">
     <div class="hero-content">
-      <h2>Desenhos e Edições com Estilo</h2>
+      <h2>Desenhos e Comissões com Estilo</h2>
       <p>Produtos em Destaque.</p>
       <a href="#produtos" class="btn">Ver Produtos</a>
     </div>
