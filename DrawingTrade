@@ -67,8 +67,8 @@
     }
 
     .btn {
-      background: #ff69b4;
-      color: white;
+      background: #ffaab3;
+      color: pink;
       border: none;
       padding: 14px 28px;
       border-radius: 10px;
@@ -80,7 +80,7 @@
     }
 
     .btn:hover {
-      background: #ff4fa3;
+      background: #ffaab3;
       transform: scale(1.05);
     }
 
@@ -103,7 +103,7 @@
     }
 
     .card {
-      background: white;
+      background: pink;
       border-radius: 18px;
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -129,7 +129,7 @@
     }
 
     .price {
-      color: #ff1493;
+      color: #ffaab3;
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 12px;
@@ -163,6 +163,7 @@
       <a href="#inicio">Início</a>
       <a href="#produtos">Produtos</a>
       <a href="#contato">Contato</a>
+      <a href="#Direitos Autorais">Direitos Autorais</a>
     </nav>
   </header>
 
