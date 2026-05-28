@@ -14,7 +14,7 @@
 
     body {
       background: #ffaab3;
-      color: #111;
+      color: #222;
     }
 
     header {
@@ -163,7 +163,7 @@
       <a href="#inicio">Início</a>
       <a href="#produtos">Produtos</a>
       <a href="#contato">Contato</a>
-      <a href="#Direitos Autorais">Direitos Autorais</a>
+      <a href="#Termos De Serviço">Termos De Serviço</a>
     </nav>
   </header>
 
