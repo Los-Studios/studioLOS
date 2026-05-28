@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StyleWave - Loja de Roupas</title>
+  <title>studioLOS - Comissões </title>
   <style>
     * {
       margin: 0;
@@ -13,13 +13,13 @@
     }
 
     body {
-      background: #f5f5f5;
-      color: #222;
+      background: #ffaab3;
+      color: #111;
     }
 
     header {
       background: #111;
-      color: white;
+      color: Pinkbaby;
       padding: 20px;
       display: flex;
       justify-content: space-between;
@@ -34,14 +34,14 @@
     }
 
     nav a {
-      color: white;
+      color: pinkbaby;
       text-decoration: none;
       margin-left: 20px;
       transition: 0.3s;
     }
 
     nav a:hover {
-      color: #ff69b4;
+      color: #ffaab3;
     }
 
     .hero {
