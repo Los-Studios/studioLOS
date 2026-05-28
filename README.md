@@ -68,7 +68,7 @@
 
     .btn {
       background: #ffaab3;
-      color: pink;
+      color: white;
       border: none;
       padding: 14px 28px;
       border-radius: 10px;
