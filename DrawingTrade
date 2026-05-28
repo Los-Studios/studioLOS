@@ -157,7 +157,7 @@
 <body>
 
   <header>
-    <h1>StyleWave</h1>
+    <h1>studioLOS</h1>
 
     <nav>
       <a href="#inicio">Início</a>
@@ -169,8 +169,8 @@
 
   <section class="hero" id="inicio">
     <div class="hero-content">
-      <h2>Moda com Estilo</h2>
-      <p>As melhores roupas para você montar seu visual.</p>
+      <h2>Desenhos e Edições com Estilo</h2>
+      <p>Produtos em Destaque.</p>
       <a href="#produtos" class="btn">Ver Produtos</a>
     </div>
   </section>
